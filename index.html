@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture In Picture</title>
+
+    <!-- favicon icon -->
+    <link rel="icon" href="static/favicon.ico">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <video id="video-element" height="360" width="640" id="video" controls hidden></video>
+    <!-- <video id="test" height="360" width="640" id="video"  controls ></video> -->
+
+    <div class="btn-container">
+        <button id="btn-selectScreen"> Select Screen </button>
+        <button id="btn-startScreen"> START PIP </button>
+        <br>
+        <!-- <h2> OR </h2> -->
+        <!-- <button id="btn-selectPath">
+            <input type="file" id="file" class="file" accept="video/*">
+            <label for="file">
+                select path
+                <p class="file-name" hidden></p>
+            </label>
+        </button>
+        <button id="btn-start-path"> START PIP </button>
+        <br><br> -->
+    </div>
+    
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script> 
+
+</body>
+</html>
